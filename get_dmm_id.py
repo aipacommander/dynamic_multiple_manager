@@ -5,19 +5,9 @@ import urllib2
 import chardet
 import BeautifulSoup
 import sqlite3
-import os
-import Image
-import pickle
-import cStringIO
-import sys
 import urllib
-import shutil
 import threading
 import time
-import glob
-import cv2
-import numpy as n
-import math
  
 base_url = 'http://www.dmm.co.jp'
 db_name  = 'dmm'
