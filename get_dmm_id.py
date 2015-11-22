@@ -24,8 +24,8 @@ def getCID():
       for self.i in range(1,1000):
         self.open_url = "%slimit=120/page=%d/" % (self.url, self.i)
         self.opened_url = urllib2.urlopen(self.open_url)
-        # print self.open_url
-        # print self.opened_url.url
+        print self.open_url
+        print self.opened_url.url
         # 取得したら同じurlのはず。
         # 違う場合は恐らく404かトップページ
         if self.opened_url.url != self.open_url:
