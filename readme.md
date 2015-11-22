@@ -19,3 +19,9 @@ $ yum install -y libjpeg-devel
 $ easy_install PIL
 $ pip install Image
 ```
+
+## 実行
+
+```sh
+$ python2.7 get_dmm_id.py >/dev/null 2>&1 &
+```
