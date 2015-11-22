@@ -1,6 +1,9 @@
 とあるサイトのコードに毛を生やしただけのコード
 苦情がきたら取り下げます。
 
+# get_dmm_img.py
+
+imgディレクトリがないと動作しません。
 
 # Centos6.2で動作させるときにやったこと
 
@@ -20,8 +23,13 @@ $ easy_install PIL
 $ pip install Image
 ```
 
-## 実行
+# 実行
 
 ```sh
 $ python2.7 get_dmm_id.py >/dev/null 2>&1 &
+```
+
+
+```sh
+$ python2.7 get_dmm_img.py >/dev/null 2>&1 &
 ```
